@@ -10,12 +10,13 @@
     {% block content %}
     <h1>Events</h1>
     <ul>
+        
         {% for index in index_list %}
-            <li>{{ index.txt }}</li>
+            <li> <a href="">{{index.txt}}</a> </li>
         {% endfor %}
         
     </ul>
-    
+    {{index_list}}
     {% endblock %}
 </body>
 </html>
